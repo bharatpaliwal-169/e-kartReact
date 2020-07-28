@@ -1,38 +1,94 @@
-.App {
+:root{
+  --mainBlue : #2a2472;
+  --lightBlue : #069ffd;
+  --mainWhite : #f3f3f3;
+  --mainDark : #232528;
+  --mainYellow : #ffa400;
+}
+
+body{
+  font-family: "oswald",sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+
+.text-title{
+  font-family: 'permanent marker',cursive;
   text-align: center;
+  letter-spacing: 1px;
+}
+.text-blue{
+  color: var(--mainBlue);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.center{
+  text-align: center;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.cart-color{
+  color: greenyellow;
+}
+.navi-item{
+  text-decoration: none;
+  letter-spacing: 1px;
+  color:white;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.card{
+  border-color: transparent;
+  transition: all 0.6s linear;
+  background-color: rgb(226, 226, 226);
+}
+
+.card-footer{
+  background: transparent;
+  border-top:transparent;
+  transition: all 0.6s linear;
+}
+.card:hover{
+  border: 0.04rem solid rgb(0, 0,0,0.2);
+  box-shadow: 2px 2px 5px rgb(0, 0,0,0.2);
+}
+.card-footer:hover{
+  background: rgb(247,247,247);
+}
+
+.img-container{
+  position: relative;
+  overflow: hidden;
+}
+
+.img-container:hover .card-img-top{
+  transform: scale(1.2);
+}
+.card-img-top{
+  transition: all 0.6s linear;
+}
+
+.cart-btn{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding : 0.2rem 0.4rem;
+  background-color: var(--lightBlue);
+  border: none;
+  color: darkblue;
+  font-size: 1.4rem;
+  border-radius: 0.5rem 0 0 0 ;
+  /* transform:translate(-100%,-100%);
+  transition: all 1s linear; */
+}
+
+.cart-btn:hover{
+  color:var(--mainBlue);
+  cursor: pointer;
+}
+
+.img-container:hover{
+  transform: translate(0,0);
 }
