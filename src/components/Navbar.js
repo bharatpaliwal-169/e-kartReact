@@ -16,11 +16,11 @@ export default class Navbar extends Component {
                                 <span className='navi-item' > Products</span> 
                             </Link>
                         </li>
-                        <li className='nav-item ml-3'>
+                        {/* <li className='nav-item ml-3'>
                             <Link to='/'>
                                 <span className='navi-item' > Contact</span> 
                             </Link>
-                        </li>
+                        </li> */}
                         
                     </ul>
                     
