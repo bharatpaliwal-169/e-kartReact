@@ -31,10 +31,10 @@ function Footer() {
                         Developer's Connect
                     </div>
                     <div className="text-center p-4">
-                        <a className="btn btn-md btn-social-icon btn-facebook mx-1"  href="https://www.facebook.com/bharat.paliwal.3958914" target="_blank"><i className="fa fa-facebook"></i></a>
-                        <a className="btn btn-md btn-social-icon btn-linkedin mx-1"  href="https://www.linkedin.com/in/bharat-paliwal-ab7169179/" target="_blank"><i className="fa fa-linkedin"></i></a>
-                        <a className="btn btn-md btn-social-icon btn-twitter mx-1" href="https://twitter.com/BharatP58380618" target="_blank"><i className="fa fa-twitter"></i></a>
-                        <a className="btn btn-md btn-social-icon btn-instagram mx-1" href="https://www.instagram.com/_bharat_231/" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>  
+                        <a className="btn btn-md btn-social-icon btn-facebook mx-1"  href="https://www.facebook.com/bharat.paliwal.3958914" target="_blank" rel="noopener noreferrer"><i className="fa fa-facebook"></i></a>
+                        <a className="btn btn-md btn-social-icon btn-linkedin mx-1"  href="https://www.linkedin.com/in/bharat-paliwal-ab7169179/"rel="noopener noreferrer" target="_blank"><i className="fa fa-linkedin"></i></a>
+                        <a className="btn btn-md btn-social-icon btn-twitter mx-1" href="https://twitter.com/BharatP58380618" target="_blank"rel="noopener noreferrer"><i className="fa fa-twitter"></i></a>
+                        <a className="btn btn-md btn-social-icon btn-instagram mx-1" href="https://www.instagram.com/_bharat_231/"rel="noopener noreferrer" target="_blank"><i class="fa fa-lg fa-instagram"></i></a>  
                     </div>
                 </div>
             </div>

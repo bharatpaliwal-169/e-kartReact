@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import {Link} from 'react-router-dom';
 import logo from '../logo.svg';
 
-export default class Navbar extends Component {
+export default class Navbar_head extends Component {
     render() {
         return (
             <nav className='navbar bg-dark navbar-dark navbar-expand-md px-sm-5'>
