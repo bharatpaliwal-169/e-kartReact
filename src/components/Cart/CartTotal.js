@@ -8,12 +8,7 @@ export default function CartTotal({value}) {
             <div className='container'>
                 <div className='row'>
                     <div className='col-10 mt-2 ml-sm-5 ml-md-auto col-sm-6 text-right' >
-                        <Link to='/'>
-                            <button className='btn btn-outline-danger mb-3 px-5'
-                                onClick={()=>clearCart()}>
-                                    Clear Cart
-                            </button>
-                        </Link>
+                        
                         <h5>
                             <span className='text-title' >
                                 SubTotal :
@@ -32,6 +27,12 @@ export default function CartTotal({value}) {
                             </span>
                             <strong> Rs. {cartTotal} </strong>
                         </h5>
+                        <Link to='/'>
+                            <button className='btn btn-outline-danger mb-3 px-5'
+                                onClick={()=>clearCart()}>
+                                    Clear Cart
+                            </button>
+                        </Link>
                     </div>
                 </div>
             </div>

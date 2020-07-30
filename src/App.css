@@ -127,3 +127,22 @@ body{
   font-size: 1.2rem;
   color: var(--mainYellow);
 }
+.btn-instagram{
+  color: white;
+  background-color: rgb(255, 159, 175);
+}
+.link-style{
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: white;
+  cursor: pointer;
+}
+.ft{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn-social-icon{
+  border-radius: 5px;
+  
+}
